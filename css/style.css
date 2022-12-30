@@ -56,7 +56,7 @@
 }
 
 .navbar-bottom {
-    background: #CD853F;
+    background: transparent;
 }
 
 
@@ -96,8 +96,10 @@
 
 .navbar-nav li a {
     font-weight: 600;
-    font-size: 13px;
-    color: #636363;
+    font-size: 15px;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1a1818;
 }
 
 .navbar-nav > li {
@@ -537,15 +539,30 @@
 }
 
 .hero h1 {
-    color: rgba(255, 255, 255, 1);
-    font-size: 58px;
+    color: #edb022c5;
+    font-size: 58vw;
     font-weight: 400;
+    font-style: italic;
+    -webkit-text-stroke: 0.3vw #383d52;
     margin-top: 0;
+}
+.hero h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #00AFF1;
+    -webkit-text-stroke: 0vw #000000;
+    border-right: 2px solid #00AFF1;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
 }
 
 .hero p.lead {
     margin-bottom: 30px;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 31px;
     font-weight: 300;
 }
@@ -580,7 +597,7 @@
 
 @media (max-width: 479px) {
     .hero h1 {
-        font-size: 28px;
+        font-size: 20px;
         margin-top: 5px;
     }
     .hero p.lead {
@@ -2351,7 +2368,7 @@ ul.itinerary-meta li {
  */
 
 .why-us-half-image-wrapper {
-    padding: 0;
+    padding: 5px;
 }
 
 .why-us-half-image-wrapper .image-bg {
@@ -2363,7 +2380,7 @@ ul.itinerary-meta li {
 }
 
 .why-us-half-image-content {
-    padding: 105px;
+    padding: 15px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -2527,7 +2544,7 @@ ul.itinerary-meta li {
 
 .about-us-grid-block-item {
     background: #F56961;
-    color: #FFF;
+    color: #000;
     padding: 30px;
 }
 
@@ -3305,15 +3322,16 @@ ul.address-list li i {
  */
 
 .blog-wrapper {
-    padding-right: 15px;
+    padding-right: 30px;
 }
 
 .blog-item {
     display: block;
-    margin-bottom: 40px;
+    position: center;
+    margin-bottom: 60px;
     background: #FFF;
     overflow: hidden;
-    border-bottom: 1px solid #E3E3E3;
+    border-bottom: 5px solid #E3E3E3;
     padding: 0 0 30px;
 }
 

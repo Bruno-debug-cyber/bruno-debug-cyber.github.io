@@ -149,7 +149,7 @@ section {
 }
 
 body {
-    line-height: 1;
+    line-height: 2;
 }
 
 ol,
@@ -182,9 +182,10 @@ q:after {
 }
 
 body {
-    font-size: 13px;
-    line-height: 25px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+	font-style: italic;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
     color: #666;
     -webkit-font-smoothing: antialiased!important;
     font-smoothing: antialiased!important;
@@ -285,7 +286,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
     color: #F56961;
     line-height: 1.4;
     text-rendering: optimizeLegibility
@@ -308,7 +309,7 @@ h3,
 
 h4,
 .h4 {
-    font-size: 21px;
+    font-size: 30px;
 }
 
 h5,
@@ -1409,7 +1410,7 @@ ul.help-list li:last-child {
  */
 
 .container-wrapper {
-    padding-top: 110px;
+    padding-top: 0px;
 }
 
 section,

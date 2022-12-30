@@ -15,7 +15,7 @@ ul.list-info li .icon, .itinerary-item.intro-item:before, .itinerary-item-wrappe
 
 .btn-primary, .btn-primary.btn-inverse:hover, 
 
-.progress-primary .progress-bar, .irs-bar, .irs-bar-edge { background:#CD853F; }
+.progress-primary .progress-bar, .irs-bar, .irs-bar-edge { background: transparent; }
 
 
 
