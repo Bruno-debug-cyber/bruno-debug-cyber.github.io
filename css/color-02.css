@@ -44,7 +44,7 @@ ul.static-page-menu li.active a, .breadcrumb-wrapper ol.breadcrumb-list li a,
 
 a, h1, h2, h3, h4, h5, h6, .btn-link,
 
-.scrollspy-sidebar .nav > li > a:hover, .irs-from, .irs-to, .irs-single { color: #778899; }
+.scrollspy-sidebar .nav > li > a:hover, .irs-from, .irs-to, .irs-single { color: #000; }
 
 .text-primary { color: #778899 !important; }
 
